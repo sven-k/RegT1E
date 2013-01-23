@@ -57,13 +57,12 @@
     	\hline
     \end{tabular}
 		
+    PT$_1$-Glied mit Grundelementen ($K$: Verstärkung; $T$: Zeitkonstante):\\
 		\begin{minipage}{10cm}
-				PT$_1$-Glied mit Grundelementen:\\
-			\includegraphics[width=10cm]{./bilder/PT1_2.png}
+			\includegraphics[width=7cm]{./bilder/PT1_2.png}
 		\end{minipage}
 		\begin{minipage}{8cm}
-			$K$: Verstärkung\\
-			$T$: Zeitkonstante
+			\includegraphics[width=3.5cm]{./bilder/PT1.png}
 		\end{minipage}
 
     \begin{multicols}{3}
@@ -102,7 +101,7 @@
 		\begin{minipage}{7.5cm}
         \includegraphics[width=7.5cm]{./bilder/Dreipunkteregler.png}
         \end{minipage}\\
-		gewünschtes $\Delta y = c \rightarrow c = K_I \cdot T_u \cdot b$\\
+		gewünscht: $d = 0 \rightarrow c = K_I \cdot T_u \cdot b$\\
 		Falls mit PT$_1$-Glied $\rightarrow c = K_I \cdot K_s \cdot b (T_u + T_G)$
 		
 		
@@ -154,9 +153,9 @@
 	\subsection{Stationäre Signale}
 	Für den stationären Fall gelten folgende Bedingungen:
 	\begin{itemize}
-    	\item \textbf{Fehlersignale} werden jeweils als \textbf{Null} angenommen.
     	\item \textbf{Integratoren} haben am \textbf{Eingang Null}.
     	\item \textbf{Integratoren} haben am \textbf{Ausgang} einen \textbf{beliebigen Wert}.
     	\item \textbf{Totzeitglieder} werden kurzgeschlossen.
     	\item \textbf{PT$_1$-Glieder} wirken als \textbf{P-Glieder} mit $K_P = K_{PT_1}$ behandelt.
+      \item (\textbf{Fehlersignale} werden jeweils als \textbf{Null} angenommen.) \textbf{VORSICHTIG!}
   	\end{itemize}
